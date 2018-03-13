@@ -4,27 +4,27 @@ class SmartCalculator {
   }
 
   add(number) {
-    this.term += '+' + number;
+    this.term+='+'+number;
     return this;
   }
   
   subtract(number) {
-    this.term += '-' + number;
+    this.term+='-'+number;
     return this;
   }
 
   multiply(number) {
-    this.term += '*' + number;
+    this.term+='*'+number;
     return this;
   }
 
   devide(number) {
-    this.term += '/' + number;
+    this.term+='/'+number;
     return this;
   }
 
   pow(number) {
-    this.term += '**' + number;
+    this.term+='**'+number;
     return this;
   }
 
